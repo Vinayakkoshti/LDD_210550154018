@@ -1,0 +1,1 @@
+cmd_/home/pi/Desktop/Linux_Device_Driver/module_export/q2_modprobe/my_add.mod := { echo  /home/pi/Desktop/Linux_Device_Driver/module_export/q2_modprobe/my_add.o;  echo; } > /home/pi/Desktop/Linux_Device_Driver/module_export/q2_modprobe/my_add.mod

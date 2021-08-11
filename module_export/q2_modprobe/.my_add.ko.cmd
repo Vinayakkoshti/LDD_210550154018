@@ -1,0 +1,1 @@
+cmd_/home/pi/Desktop/Linux_Device_Driver/module_export/q2_modprobe/my_add.ko := ld -r  -EL  --build-id=sha1  -T scripts/module.lds -o /home/pi/Desktop/Linux_Device_Driver/module_export/q2_modprobe/my_add.ko /home/pi/Desktop/Linux_Device_Driver/module_export/q2_modprobe/my_add.o /home/pi/Desktop/Linux_Device_Driver/module_export/q2_modprobe/my_add.mod.o;  true
