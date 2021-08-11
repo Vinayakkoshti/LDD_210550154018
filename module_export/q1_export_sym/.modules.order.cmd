@@ -1,0 +1,1 @@
+cmd_/home/pi/Desktop/Linux_Device_Driver/module_export/q1_export_sym/modules.order := {   echo /home/pi/Desktop/Linux_Device_Driver/module_export/q1_export_sym/my_add.ko;   echo /home/pi/Desktop/Linux_Device_Driver/module_export/q1_export_sym/average.ko; :; } | awk '!x[$$0]++' - > /home/pi/Desktop/Linux_Device_Driver/module_export/q1_export_sym/modules.order

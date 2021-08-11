@@ -1,0 +1,1 @@
+cmd_/home/pi/Desktop/Linux_Device_Driver/module_export/q1_export_sym/average.mod := { echo  /home/pi/Desktop/Linux_Device_Driver/module_export/q1_export_sym/average.o;  echo; } > /home/pi/Desktop/Linux_Device_Driver/module_export/q1_export_sym/average.mod
