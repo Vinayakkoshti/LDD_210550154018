@@ -1,0 +1,1 @@
+cmd_/home/pi/Desktop/LD/LDD_210550154018/character_DD/q3_dynamic_device_num/modules.order := {   echo /home/pi/Desktop/LD/LDD_210550154018/character_DD/q3_dynamic_device_num/char_dynamic_alloc.ko; :; } | awk '!x[$$0]++' - > /home/pi/Desktop/LD/LDD_210550154018/character_DD/q3_dynamic_device_num/modules.order
