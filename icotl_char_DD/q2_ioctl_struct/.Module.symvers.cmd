@@ -1,0 +1,1 @@
+cmd_/home/pi/Desktop/LD/LDD_210550154018/icotl_char_DD/q2_ioctl_struct/Module.symvers := sed 's/ko$$/o/' /home/pi/Desktop/LD/LDD_210550154018/icotl_char_DD/q2_ioctl_struct/modules.order | scripts/mod/modpost -m -a   -o /home/pi/Desktop/LD/LDD_210550154018/icotl_char_DD/q2_ioctl_struct/Module.symvers -e -i Module.symvers   -T -
