@@ -391,7 +391,7 @@ static void calcu_mod_off(void)
 	cdev_del(SubDev);
 	cdev_del(MulDev);
 	cdev_del(DivDev);
-	cdev_del(my_device_number);
+//	cdev_del(my_device_number);
 	printk("all devices are logging off\n");
 	/*unregister from the kernel space*/
 	unregister_chrdev_region(my_device_number, 4);
