@@ -32,13 +32,12 @@ struct file_operations fops =
 
 struct cdev *my_cdev;
 
+int result;
+int MAJOR,MINOR;
+dev_t mydev;
 
 static int CharDevice_init(void)
 {
-	int result;
-	int MAJOR,MINOR;
-	dev_t mydev;
-//	mydev = MKDEV(255,0);
 
 	result = alloc_chrdev_region(&mydev,0,1,"MyCharDevice");
 
@@ -74,11 +73,6 @@ static int CharDevice_init(void)
 
 void CharDevice_exit(void)
 {
-	dev_t mydev;
-	int MAJOR,MINOR;
-	mydev = MKDEV(255,0);
-	MAJOR = MAJOR(mydev);
-	MINOR = MINOR(mydev);
 
 	printk(KERN_ALERT"the major number is %d and minor number is %d\n",MAJOR,MINOR);
 	unregister_chrdev_region(mydev,1);
