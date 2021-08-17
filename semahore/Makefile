@@ -7,4 +7,4 @@ all:
 
 clean:
 	$(MAKE) -C $(KDIR) M=$(PWD) clean
-	rm -rf  application
+	rm -rf  apps
