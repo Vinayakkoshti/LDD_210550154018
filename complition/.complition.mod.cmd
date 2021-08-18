@@ -1,0 +1,1 @@
+cmd_/home/pi/Desktop/LD/LDD_210550154018/complition/complition.mod := { echo  /home/pi/Desktop/LD/LDD_210550154018/complition/complition.o;  echo; } > /home/pi/Desktop/LD/LDD_210550154018/complition/complition.mod

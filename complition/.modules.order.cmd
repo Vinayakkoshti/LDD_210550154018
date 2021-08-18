@@ -1,0 +1,1 @@
+cmd_/home/pi/Desktop/LD/LDD_210550154018/complition/modules.order := {   echo /home/pi/Desktop/LD/LDD_210550154018/complition/complition.ko; :; } | awk '!x[$$0]++' - > /home/pi/Desktop/LD/LDD_210550154018/complition/modules.order
