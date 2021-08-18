@@ -1,0 +1,1 @@
+cmd_/home/pi/Desktop/LD/LDD_210550154018/spinlock/spinlock.ko := ld -r  -EL  --build-id=sha1  -T scripts/module.lds -o /home/pi/Desktop/LD/LDD_210550154018/spinlock/spinlock.ko /home/pi/Desktop/LD/LDD_210550154018/spinlock/spinlock.o /home/pi/Desktop/LD/LDD_210550154018/spinlock/spinlock.mod.o;  true

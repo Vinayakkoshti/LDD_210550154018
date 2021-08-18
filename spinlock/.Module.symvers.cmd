@@ -1,0 +1,1 @@
+cmd_/home/pi/Desktop/LD/LDD_210550154018/spinlock/Module.symvers := sed 's/ko$$/o/' /home/pi/Desktop/LD/LDD_210550154018/spinlock/modules.order | scripts/mod/modpost -m -a   -o /home/pi/Desktop/LD/LDD_210550154018/spinlock/Module.symvers -e -i Module.symvers   -T -
