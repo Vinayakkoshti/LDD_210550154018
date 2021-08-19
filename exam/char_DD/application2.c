@@ -3,6 +3,7 @@
 #include <fcntl.h>
 #include<stdio.h>
 #include<stdlib.h>
+#include <unistd.h>
 
 int main()
 {
@@ -17,9 +18,11 @@ int main()
 		exit(1);
 	}
 	
-	write(fd,u_buff,sizeof(u_buff));
-	read(fd,k_buff,50);
 
+	read(fd,k_buff,50);
+	//sleep(2);
+
+	write(fd,u_buff,sizeof(u_buff));
 	printf("data read from kernel : %s\n",k_buff);	
 	close(fd);
 
