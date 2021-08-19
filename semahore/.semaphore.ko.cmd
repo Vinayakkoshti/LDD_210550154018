@@ -1,1 +1,0 @@
-cmd_/home/pi/Desktop/LD/LDD_210550154018/semahore/semaphore.ko := ld -r  -EL  --build-id=sha1  -T scripts/module.lds -o /home/pi/Desktop/LD/LDD_210550154018/semahore/semaphore.ko /home/pi/Desktop/LD/LDD_210550154018/semahore/semaphore.o /home/pi/Desktop/LD/LDD_210550154018/semahore/semaphore.mod.o;  true

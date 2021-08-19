@@ -1,0 +1,1 @@
+cmd_/home/pi/Desktop/LD/LDD_210550154018/jiffies/Module.symvers := sed 's/ko$$/o/' /home/pi/Desktop/LD/LDD_210550154018/jiffies/modules.order | scripts/mod/modpost -m -a   -o /home/pi/Desktop/LD/LDD_210550154018/jiffies/Module.symvers -e -i Module.symvers   -T -

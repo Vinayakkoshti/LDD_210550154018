@@ -1,1 +1,0 @@
-cmd_/home/pi/Desktop/LD/LDD_210550154018/complition/complition.ko := ld -r  -EL  --build-id=sha1  -T scripts/module.lds -o /home/pi/Desktop/LD/LDD_210550154018/complition/complition.ko /home/pi/Desktop/LD/LDD_210550154018/complition/complition.o /home/pi/Desktop/LD/LDD_210550154018/complition/complition.mod.o;  true

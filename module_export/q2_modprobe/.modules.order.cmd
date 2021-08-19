@@ -1,1 +1,0 @@
-cmd_/home/pi/Desktop/Linux_Device_Driver/module_export/q2_modprobe/modules.order := {   echo /home/pi/Desktop/Linux_Device_Driver/module_export/q2_modprobe/my_add.ko;   echo /home/pi/Desktop/Linux_Device_Driver/module_export/q2_modprobe/average.ko; :; } | awk '!x[$$0]++' - > /home/pi/Desktop/Linux_Device_Driver/module_export/q2_modprobe/modules.order

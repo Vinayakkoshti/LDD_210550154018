@@ -1,0 +1,1 @@
+cmd_/home/pi/Desktop/LD/LDD_210550154018/jiffies/modules.order := {   echo /home/pi/Desktop/LD/LDD_210550154018/jiffies/jiffies.ko; :; } | awk '!x[$$0]++' - > /home/pi/Desktop/LD/LDD_210550154018/jiffies/modules.order

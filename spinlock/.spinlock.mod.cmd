@@ -1,1 +1,0 @@
-cmd_/home/pi/Desktop/LD/LDD_210550154018/spinlock/spinlock.mod := { echo  /home/pi/Desktop/LD/LDD_210550154018/spinlock/spinlock.o;  echo; } > /home/pi/Desktop/LD/LDD_210550154018/spinlock/spinlock.mod

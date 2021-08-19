@@ -1,1 +1,0 @@
-cmd_/home/pi/Desktop/LD/LDD_210550154018/character_DD/q3_dynamic_device_num/Module.symvers := sed 's/ko$$/o/' /home/pi/Desktop/LD/LDD_210550154018/character_DD/q3_dynamic_device_num/modules.order | scripts/mod/modpost -m -a   -o /home/pi/Desktop/LD/LDD_210550154018/character_DD/q3_dynamic_device_num/Module.symvers -e -i Module.symvers   -T -
