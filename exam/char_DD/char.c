@@ -7,9 +7,14 @@
 #include <linux/uaccess.h>
 #include<linux/semaphore.h>
 #include<linux/delay.h>
+#include<linux/wait.h>
+#include<linux/sched.h>
 
+int flag =1;
 char k_buff[50]="this is kernel";
 struct semaphore sem_dev;
+DECLARE_WAIT_QUEUE_HEAD(mywait);
+
 /*srction for addition start*/
 /*function declaration of add functionality*/
 int open_add(struct inode *inode, struct file *file_op_add);
@@ -43,11 +48,11 @@ ssize_t read_add(struct file *file_op_add,char __user *u_buff,size_t count,loff_
                  return -ERESTARTSYS;
         }
          int result;
-        ssize_t retval;
-	//	if(flag==1)
-	//	{
-	//		wait_event_interruptible(mywait,flag==0);
-	//	}
+      ssize_t retval;
+/*		if(flag==1)
+		{
+			wait_event_interruptible(mywait,flag==0);
+		}*/
         result = copy_to_user((char*)u_buff,(char *)k_buff,sizeof(k_buff));
 
          up(&sem_dev);
@@ -60,7 +65,7 @@ ssize_t read_add(struct file *file_op_add,char __user *u_buff,size_t count,loff_
         }
         else
         {
-	//	flag =1;
+		flag =1;
                 printk(KERN_ALERT"ERROR writting data to user\n");
                 retval = -EFAULT;
                 return retval;
@@ -83,8 +88,8 @@ ssize_t write_add(struct file *file_op_add, const char __user *u_buff, size_t co
         up(&sem_dev);
         if(result==0)
         {
-          //      flag=0;
-            //    wake_up_interruptible(&mywait);
+        //        flag=0;
+          //      wake_up_interruptible(&mywait);
                 printk(KERN_ALERT"Message from user : %s\n",k_buff);
                 printk(KERN_ALERT"%d bytes of data written succesfully \n",count);
                 retval = count;
