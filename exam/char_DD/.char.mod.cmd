@@ -1,0 +1,1 @@
+cmd_/home/pi/Desktop/LD/LDD_210550154018/exam/char_DD/char.mod := { echo  /home/pi/Desktop/LD/LDD_210550154018/exam/char_DD/char.o;  echo; } > /home/pi/Desktop/LD/LDD_210550154018/exam/char_DD/char.mod

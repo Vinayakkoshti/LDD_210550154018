@@ -1,0 +1,1 @@
+cmd_/home/pi/Desktop/LD/LDD_210550154018/exam/char_DD/char.ko := ld -r  -EL  --build-id=sha1  -T scripts/module.lds -o /home/pi/Desktop/LD/LDD_210550154018/exam/char_DD/char.ko /home/pi/Desktop/LD/LDD_210550154018/exam/char_DD/char.o /home/pi/Desktop/LD/LDD_210550154018/exam/char_DD/char.mod.o;  true
